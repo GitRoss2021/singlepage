@@ -1,0 +1,154 @@
+/*Side navbar*/
+
+  body{
+    background-image: url(https://raw.githubusercontent.com/ahsanazim/slack-landing-page/master/screen_caps/main_background.jpg);
+    width: 100vh;
+    height: 60px;
+  }
+
+  /* Animation of a Landing Page */
+.typing h1 {
+  border-right: .15em solid orange;
+  font-family: sans-serif;
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.container{
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.typing h1 {
+  color: bisque;
+  font-size: 60px;
+  width: 3.5em;
+  animation: type 0.5s steps(5, end);
+  animation-fill-mode: forwards;
+}
+
+.typing h2 {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typing h2 {
+  color: whitesmoke;
+  font-size: 50px;
+  font-style: oblique;
+  width: 11em;
+  opacity: 0;
+  animation: type2 2.2s steps(30, end);
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.typing h3 {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typing h3 {
+  color: rgb(138, 245, 234);
+  font-size: 35px;
+  width: 30em;
+  opacity: 0;
+  animation: type3 4s steps(45, end);
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+.typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typing p {
+  color: rgb(153, 245, 245);
+  font-size: 25px;
+  width: 57em;
+  opacity: 0;
+  animation: type4 5s steps(20, end), blink 0.2s step-end infinite alternate;
+  animation-delay: 6.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+      width: 0;
+  }
+
+  99.9% {
+      border-right: .15em solid orange;
+  }
+
+  100% {
+      border: none;
+  }
+}
+
+
+@keyframes type2 {
+  0% {
+      width: 0;
+  }
+
+  1% {
+      opacity: 1;
+  }
+
+  99.9% {
+      border-right: .20em solid orange;
+  }
+
+  100% {
+      opacity: 1;
+      border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+      width: 0;
+  }
+
+  1% {
+      opacity: 1;
+  }
+
+  99.9% {
+      border-right: .17em solid orange;
+  }
+
+  100% {
+      opacity: 1;
+      border: none;
+  }
+}
+
+
+@keyframes type4 {
+  0% {
+      width: 0;
+  }
+
+  1% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+  
